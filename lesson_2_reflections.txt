@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize a repository, it just creates an empty repository with no commits and all the files, if existing in the directory, are left untracked. So, hence, there are zero commits and hence, the history will be empty.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is a intermediate area which is used to store the files present in the working directory, that needs to be tracked in the commit... The files added in the staging area are transferred into the repository, once the commit has been made. It gives us an opportunity to reflect and introspect on our decision to select particular file(s) for being tracked by git system.
