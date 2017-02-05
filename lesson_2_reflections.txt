@@ -21,3 +21,7 @@ Since, each derived branch is independent of their base branch, therefore, we ha
 Question 5 - How do the diagrams help you visualize the branch structure?
 
 Diagrams aid us in understanding the relationships shared among the various commits stored in the repository... It also aids us in understanding how branching and merging affects the repository and concept of reachability. This also helps us in understanding how Git tracks and moves between the files in the repository.
+
+Question 6 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When we merge two branches, then all the commits of the specified branch is merged into the currently checked out branch, creating a new commit (tip of the branch) for that branch. We represent the merging in the diagram as the intersection of the two branches and naming the new commit as the extension of one of the original branches, simply because, at the end, we are combining the two different and isolated versions of the files into an unified version (which was initially same before it was branched out). 
