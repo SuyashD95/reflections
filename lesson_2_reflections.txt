@@ -17,3 +17,7 @@ Branches allow us to diverge from the master branch and hence, gives us a space 
 Hence, it aids us in exploration and working on new ideas as well as allow us to track different versions of the project in a much more simplified and efficient manner.. If the idea or objective is successful, then, we can merge the user-created branch with the master or in case of failure, we could discard the branch itself.. 
 
 Since, each derived branch is independent of their base branch, therefore, we have the freedom to not only work on multiple branches in parallel, but also, can do so without the risk of affecting the base branch.
+
+Question 5 - How do the diagrams help you visualize the branch structure?
+
+Diagrams aid us in understanding the relationships shared among the various commits stored in the repository... It also aids us in understanding how branching and merging affects the repository and concept of reachability. This also helps us in understanding how Git tracks and moves between the files in the repository.
