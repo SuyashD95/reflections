@@ -7,3 +7,9 @@ Question 2 - Why might you want to always pull changes manually rather than havi
 Pulling changes manually is a much better method than automating this task to Git, since there might be changes in the remote that the author/contributor might not want to include in their local repository.. Or, in case, of multiple people working on a certain project, each individual is supposed to be handling a particular task.
 
 And, sometimes, these tasks are independent from each other and hence, it is not required by the members of the team to exactly know or keep track of the changes happening on the other aspects of the project, until and unless, that aspect affects their respective responsibilites... In this case, pulling a branch from remote to local repository is required. Hence, pulling should remain an individual's decision instead of Git.
+
+Question 3 - Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches is just a reference to a commit. It is primarily used inside a single repository. 
+Clones are a way to create a copy between two repositories either stored locally or between a remote and a local repository.
+Forks are like a clone for the repository stored on Github.
