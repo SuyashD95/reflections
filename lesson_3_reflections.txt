@@ -1,0 +1,3 @@
+Question 1 - When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repository can be used as a container which holds all the commits which we wish to share with the general public.. Also, a remote repository can also work as the meeting center where multiple people working on the same repository can submit their own versions.
