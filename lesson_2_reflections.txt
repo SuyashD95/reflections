@@ -25,3 +25,11 @@ Diagrams aid us in understanding the relationships shared among the various comm
 Question 6 - What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When we merge two branches, then all the commits of the specified branch is merged into the currently checked out branch, creating a new commit (tip of the branch) for that branch. We represent the merging in the diagram as the intersection of the two branches and naming the new commit as the extension of one of the original branches, simply because, at the end, we are combining the two different and isolated versions of the files into an unified version (which was initially same before it was branched out). 
+
+Question 7 - What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging is a great aid when we are merging two files where simple additions/deletions have been made... This approach saves a lot of time but this approach could also lead to problems, especially in cases, where multiple authors have changed a particular section of the file.. These conflicts require a lot of compututation power and deep machine learning mechanisms to resolve and automate the merging process.. Even if a successful merge happens, it might lead to errors which might not make sense or have a negative impact on the overall quality of the project...
+
+Whereas, manual merging leaves the responsibility of resolving the conflicts to the authors of the content which is wise since, the creators know their content the best and hence, are more than capable to identify and resolve these issues... To make things simpler, Git identifies the locations where conflict has arisen to aid the authors..
+
+But, at the same time, doing merges manually is a time consuming process which is really frustating, especially, in cases, where simple changes have been made which are not going to lead to conflicts...
