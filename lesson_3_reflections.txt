@@ -1,3 +1,9 @@
 Question 1 - When would you want to use a remote repository rather than keeping all your work local?
 
 Remote repository can be used as a container which holds all the commits which we wish to share with the general public.. Also, a remote repository can also work as the meeting center where multiple people working on the same repository can submit their own versions.
+
+Question 2 - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Pulling changes manually is a much better method than automating this task to Git, since there might be changes in the remote that the author/contributor might not want to include in their local repository.. Or, in case, of multiple people working on a certain project, each individual is supposed to be handling a particular task.
+
+And, sometimes, these tasks are independent from each other and hence, it is not required by the members of the team to exactly know or keep track of the changes happening on the other aspects of the project, until and unless, that aspect affects their respective responsibilites... In this case, pulling a branch from remote to local repository is required. Hence, pulling should remain an individual's decision instead of Git.
