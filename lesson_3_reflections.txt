@@ -10,6 +10,10 @@ And, sometimes, these tasks are independent from each other and hence, it is not
 
 Question 3 - Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Branches is just a reference to a commit. It is primarily used inside a single repository. 
-Clones are a way to create a copy between two repositories either stored locally or between a remote and a local repository.
-Forks are like a clone for the repository stored on Github.
+Branches, Forks and Clones can be considered as different ways to exercise version control your content... The differences between the three of them are mentioned below:
+
+	Branches: They are the labels given to the commits made by Git. They are exclusively used inside a single repository (local, remote). Even though, they work inside a repository, they are considered to be the most important form of version control since they allow an individual the ability to 'context switch' (it gives us an opportunity to change our mindset which is required while switching between various aspects of the project).
+
+	Clones: It is a feature of Git which allows us to copy on entire repository from one computer to another (including its contents as well as commit history). It is used when we wish to clone an existing repository as a remote for another local repository (like from GitHub to Local) or can clone a local repository into another spot on an individual's computer to create two local versions of a repository (from Local to Local).
+
+	Forks: It is a feature of GitHub which allows us to make a copy of somebody else's repository directly on the GitHub servers without pulling down the code to an individual's local machine first. In other simple words, fork is just a clone that makes GitHub makes for the users on their own machines (servers). They are used when we wish to clone a repository without discrediting the work of the original author and we don't have permission to commit changes to the original repository (from GitHub to GitHub).
