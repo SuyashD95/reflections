@@ -17,3 +17,9 @@ Branches, Forks and Clones can be considered as different ways to exercise versi
 	Clones: It is a feature of Git which allows us to copy on entire repository from one computer to another (including its contents as well as commit history). It is used when we wish to clone an existing repository as a remote for another local repository (like from GitHub to Local) or can clone a local repository into another spot on an individual's computer to create two local versions of a repository (from Local to Local).
 
 	Forks: It is a feature of GitHub which allows us to make a copy of somebody else's repository directly on the GitHub servers without pulling down the code to an individual's local machine first. In other simple words, fork is just a clone that makes GitHub makes for the users on their own machines (servers). They are used when we wish to clone a repository without discrediting the work of the original author and we don't have permission to commit changes to the original repository (from GitHub to GitHub).
+
+Question 4 - What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state of the remote stored locally on our computer allows us a benefit to compare changes between the local copy of the remote branch and the local branch and hence, can be used to handle conflicts which have occured due to the remote and local repository being out of sync.. Also, this method allows us a way to know the status of the local branches with respect to the local copies of remote branches, whether they are ahead, behind, etc.
+
+Also, the ability to fetch and update only the local copies of remote branches and keeping the local branches intact, allows someone the ability to see whether the changes which have happened in the remotes should be merged with the local branches.. On the other hand, this might also aid someone to work offline by giving access to the commit history of the remotes.
