@@ -23,3 +23,7 @@ Question 4 - What is the benefit of having a copy of the last known state of the
 Having a copy of the last known state of the remote stored locally on our computer allows us a benefit to compare changes between the local copy of the remote branch and the local branch and hence, can be used to handle conflicts which have occured due to the remote and local repository being out of sync.. Also, this method allows us a way to know the status of the local branches with respect to the local copies of remote branches, whether they are ahead, behind, etc.
 
 Also, the ability to fetch and update only the local copies of remote branches and keeping the local branches intact, allows someone the ability to see whether the changes which have happened in the remotes should be merged with the local branches.. On the other hand, this might also aid someone to work offline by giving access to the commit history of the remotes.
+
+Question 5 - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+If I don't have access to either Git or GitHub, then I will collaborate with my team using the conventional methods of physical interaction... While this method will allow us to have face-to-face conversations, physical interactions which could probably lead to better communication... But, we have to either choose another version control system like CVS or Subversion or do the manual saving of our content which is both time-consuming and waste of resources...
