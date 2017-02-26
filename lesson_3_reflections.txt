@@ -27,3 +27,11 @@ Also, the ability to fetch and update only the local copies of remote branches a
 Question 5 - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 If I don't have access to either Git or GitHub, then I will collaborate with my team using the conventional methods of physical interaction... While this method will allow us to have face-to-face conversations, physical interactions which could probably lead to better communication... But, we have to either choose another version control system like CVS or Subversion or do the manual saving of our content which is both time-consuming and waste of resources...
+
+Question 6 - When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in the separate branch rather than directly in master, is a good practice because it assists us to work on new features, bug fixes, etc. without compromising the quality of the master (since, it's the one which is supposed to be deployed). 
+
+Working on a separate branches also aids us in getting feedback from other individuals and hence, provide a medium for collaborating with others in a more interactive way.. Separate branches allows us to use the 'Pull Requests' feature of GitHub more effectively.
+
+But, working on the master branch directly saves both time and effort, if the code base is small and errors usually doesn't cause the projects to come to an abrupt halt... Also, usually working on small projects, pushing and pulling the master branch directly is probably a more effective approach, even though, working on separate braches is the recommended practice.
